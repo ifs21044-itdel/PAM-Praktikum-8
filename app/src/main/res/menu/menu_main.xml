@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_camera"
+        android:icon="@drawable/cameraputih"
+        android:title="Camera"
+        app:showAsAction="always" />
+
+    <!-- Tambahkan ikon pencarian -->
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/cari"
+        android:title="Search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_grupbaru"
+        android:orderInCategory="100"
+        android:title="Grup Baru"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_siaranbaru"
+        android:orderInCategory="100"
+        android:title="Grup Baru"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_perangkattertaut"
+        android:orderInCategory="100"
+        android:title="Perangkat Tertaut"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_pesanberbintang"
+        android:orderInCategory="100"
+        android:title="Pesan Berbintang"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_setelan"
+        android:orderInCategory="100"
+        android:title="Setelan"
+        app:showAsAction="never" />
+</menu>

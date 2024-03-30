@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_chat"
+        android:title="Chat"
+        android:icon="@drawable/baseline_chat_24"
+        />
+    <item
+        android:id="@+id/bottom_pembaruan"
+        android:title="Pembaruan"
+        android:icon="@drawable/pembaruan"/>
+    <item
+        android:id="@+id/bottom_komunitas"
+        android:title="Komunitas"
+        android:icon="@drawable/komunitas"/>
+    <item
+        android:id="@+id/bottom_panggilan"
+        android:title="Panggilan"
+        android:icon="@drawable/panggilan"/>
+
+
+</menu>

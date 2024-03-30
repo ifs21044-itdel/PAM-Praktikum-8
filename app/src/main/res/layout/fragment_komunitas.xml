@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Linear layout orientation vertical-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backcolor"
+    android:orientation="vertical"
+    tools:context=".KomunitasFragment">
+
+
+    <!--Linear layout orientation vertical-->
+    <RelativeLayout
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <!-- Kotak putih dengan ikon community -->
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/kotakputih"
+            android:src="@drawable/yangbenar" />
+
+        <!-- Ikon "ic add" di sudut kanan bawah -->
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@id/imageView4"
+            android:layout_alignBottom="@id/imageView4"
+            android:layout_marginEnd="-12dp"
+            android:layout_marginBottom="-9dp"
+            android:background="@drawable/bulathijau"
+            android:src="@drawable/ic_add" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="17dp"
+            android:layout_toEndOf="@+id/imageView4"
+            android:text="Komunitas baru"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <!--RecyclerView-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/backcolor"
+            tools:listitem="@layout/items_list" />
+
+    </LinearLayout>
+
+</LinearLayout>
